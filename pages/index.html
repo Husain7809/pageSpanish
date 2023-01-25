@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Page 1</title>
+    <link rel="stylesheet" href="../asset/css/style.css">
+    <script src="/asset/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 m-0 mx-auto card-1">
+                <div class="plan-boleta">
+                    <div class="row">
+                        <div class="close">
+                            <span class="close_page" onclick="close_page()">&times;</span>
+                        </div>
+                        <div class="col-lg-6 col-12 mx-auto" id="plan-text">
+                            <p>Estas en el <span style="color: #07AFF8;font-weight: bold;">Plan Boleta Electrónica</span></p>
+                            <h6>Actualiza tu plan a Facturación Electrónica</h6>
+                            <p>¡Desbloquea esta opción y muchas más funcionalidades!</p>
+                        </div>
+                        <div class="col-lg-6 col-12 mx-auto justify-content-center align-content-center d-lg-flex text-center m-lg-auto">
+                            <button id="expand-plan" class="btn">AMPLÍA TU PLAN AHORA</button>
+                        </div>
+                    </div>
+                    <div class="row my-3" id="plan-card">
+                        <div class="col-lg-4 col-12 mx-auto">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><img src="/asset/img/send.png" alt="img"></h5>
+                                    <p class="card-text">Emisión de facturación electrónica desde el portal Web</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-12 mx-auto">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><img src="/asset/img/note.png" alt="img"></h5>
+                                    <p class="card-text">Realizar Notas de Créditos y Débitos desde el Portal Web</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 mx-auto">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><img src="/asset/img/magnifying.png" alt="img"></h5>
+                                    <p class="card-text">Revise las facturas de compra desde el Portal Web</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 my-lg-2">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><img src="/asset/img/magnifying.png" alt="img"></h5>
+                                    <p class="card-text">Revise las facturas de compra desde el Portal Web</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 my-lg-2">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title"><img src="/asset/img/edc.png" alt="img"></h5>
+                                    <p class="card-text">Habilite Facturación en sus POS (solo R1 Pro) Hasta 10 POS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="chk">
+                                <label class="form-check-label" for="chk">No deseo que vuelva a mostrarme.</label>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
