@@ -66,32 +66,165 @@ html {
     top: 0;
     text-align: end;
 }
-.close_page
-{
+
+.close_page {
     cursor: pointer;
 }
-@media (max-width: 952px) {
-    body
-    {
+
+@media (max-width: 1207px) {
+    body {
         align-items: center;
         justify-content: center;
     }
-    #plan-text
-    {
-        text-align:center;
+
+    .plan-boleta {
+        padding: 0;
+        padding-top: 30px;
     }
-    #expand-plan
-    {
+
+    #plan-text {
+        text-align: center;
+    }
+
+    #expand-plan {
         margin-top: 12px;
     }
-    .card{
+
+    .card {
         text-align: center;
         margin: auto;
         margin-bottom: 10px;
     }
-    #check_box
-    {
+
+    #check_box {
         text-align: center;
-      
+        margin: auto;
+        padding-left: 10px;
+    }
+}
+
+/* second page */
+
+.date_issue_block {
+    height: 100vh;
+    background: transparent linear-gradient(87deg, #D2EDDE 0%, #A1E7F5 100%) 0% 0% no-repeat padding-box;
+}
+
+.date_issue_details {
+    width: 100%;
+    min-height: 620px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.date_issue_details h2 {
+    color: #333333;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.payment-date-block label {
+    color: #333333;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.payment-date-block select {
+    width: 480px;
+    height: 40px;
+    /* background: #FAFAFA 0% 0% no-repeat padding-box; */
+    border: 2px solid #07AFF8;
+    border-radius: 5px;
+}
+
+.document_available_section {
+    margin-top: 20px;
+}
+
+.document_available_section p {
+    font-weight: 500;
+}
+
+.document_available_section .card {
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    width: 270px;
+    height: 131px;
+    border: none !important;
+}
+
+.document_available_section .card h5 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.document_available_section .card p {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.border {
+    border: 1px solid #F0F0F0;
+}
+
+.Ingresar {
+    width: 116px;
+    height: 32px;
+    background: #13BD38 0% 0% no-repeat padding-box !important;
+    border-radius: 8px;
+    color: white !important;
+}
+
+.Contratar {
+    width: 116px;
+    height: 32px;
+    background: #07AFF8 0% 0% no-repeat padding-box !important;
+    border-radius: 8px;
+    color: white !important;
+}
+
+.Consult_block {
+    width: auto;
+    height: 64px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    margin: auto;
+    display: flex;
+}
+
+#consultBtn {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    font-weight: bold;
+    width: 180px;
+    height: 42px;
+    color: white;
+    border: none;
+    background: #F69609 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+}
+@media (max-width: 583px) {
+    .date_issue_block
+    {
+        height: 100% !important;
+    }
+    .payment-date-block select
+    {
+        width: 250px !important;
+    }
+    #consultBtn
+    {
+        margin: auto !important;
     }
 }
